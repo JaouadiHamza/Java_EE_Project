@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<table border="0" >
+<table border='1px' >
 <tr>
 <td>Full name :  </td><td><%= 
  session.getAttribute("fname")
@@ -17,42 +17,37 @@
 <tr>
 <td>budget :  </td><td><%= 
  session.getAttribute("budget")
- %></td>
+ %>  DT</td>
 </tr>
 <tr>
 <td>Chest :  </td><td><%= 
  session.getAttribute("Chest")
- %></td>
+ %>  cm</td>
 </tr>
 <tr>
 <td>Waist :  </td><td><%= 
  session.getAttribute("Waist")
- %></td>
+ %>  cm</td>
 </tr>
 <tr>
 <td>Hip :  </td><td><%= 
  session.getAttribute("Hip")
- %></td>
+ %>  cm</td>
 </tr>
 <tr>
 <td>Stomach :  </td><td><%= 
  session.getAttribute("Stomach")
- %></td>
+ %>  cm</td>
 </tr>
 <tr>
 <td>Length :  </td><td><%= 
  session.getAttribute("Length")
- %></td>
-</tr>
-<tr>
-<td>budget :  </td><td><%= 
- session.getAttribute("budget")
- %></td>
+ %>  cm</td>
 </tr>
 <tr>
 <td>Shoulder :  </td><td><%= 
  session.getAttribute("Shoulder")
- %></td>
+ %>  cm</td>
 </tr>
 
 
