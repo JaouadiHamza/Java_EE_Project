@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+</head>
+<body>
+<h1>Suits</h1>
+<form method="post" action="FormController">
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Your Full Name</label>
+    <input type="text"  name = "fname" class="form-control" placeholder="Enter your name here" required="required">
+  </div>
+  
+    <label for="exampleInputPassword1">Your Size (cm)</label>
+   
+  <div class="form-row">
+    <div class="col">
+      <input type="number" name = "Chest" class="form-control" placeholder="Chest" required="required">
+    </div>
+    <div class="col">
+      <input type="number" name = "Stomach" class="form-control" placeholder="Stomach" required="required">
+    </div>
+    <div class="col">
+      <input type="number" name = "Waist" class="form-control" placeholder="Waist" required="required">
+    </div>
+    <div class="col">
+      <input type="number" name = "Hip" class="form-control" placeholder="Hip" required="required">
+    </div>
+    <div class="col">
+      <input type="number" name = "Shoulder"  class="form-control" placeholder="Shoulder" required="required">
+    </div>
+    <div class="col">
+      <input type="number" name = "Sleeve_Length" class="form-control" placeholder="Sleeve Length" required="required">
+    </div>
+    <div class="col">
+      <input type="number" name = "Length" class="form-control" placeholder="Length" required="required">
+    </div>
+  </div>
+
+  
+  
+   <div class="form-group">
+    <label for="exampleInputPassword1">Your Budget (350 DT -- 2k DT)</label>
+    <input type="number"  min="500" max="2000" class="form-control"  name="budget" placeholder="Enter your Budget" required="required">
+  </div>
+  	
+  	 <div class="form-group">
+    <label for="exampleInputPassword1">Lapel</label>
+    
+ 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="l1" id="exampleRadios1" value="notch" required="required">
+  <label class="form-check-label" for="exampleRadios1">
+    Notch
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="l2" id="exampleRadios2" value="peak" required="required">
+  <label class="form-check-label" for="exampleRadios2">
+    Peak
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="l3" id="exampleRadios3" value="concave" required="required">
+  <label class="form-check-label" for="exampleRadios3">
+    Concave
+  </label>
+</div>
+
+
+
+   </div>
+  
+   <div class="form-group">
+    <label for="exampleInputPassword1">Closure</label>
+      <div class="form-check form-check-inline">
+  <input class="form-check-input" name = "1" type="checkbox" id="inlineCheckbox1" value="1">
+  <label class="form-check-label" for="inlineCheckbox1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" name = "2" type="checkbox" id="inlineCheckbox2" value="2" checked="checked">
+  <label class="form-check-label" for="inlineCheckbox2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" name = "3" type="checkbox" id="inlineCheckbox3" value="3" >
+  <label class="form-check-label" for="inlineCheckbox3">3</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" name = "4" type="checkbox" id="inlineCheckbox3" value="4" >
+  <label class="form-check-label" for="inlineCheckbox3">4</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" name = "6" type="checkbox" id="inlineCheckbox3" value="6" >
+  <label class="form-check-label" for="inlineCheckbox3">6</label>
+</div>
+  </div>
+  
+   <div class="form-group">
+    <label for="exampleInputPassword1">Vent</label>
+  
+<select class="custom-select custom-select-sm">
+  <option selected>Open this select vent type</option>
+  <option value="2" >Double</option>
+  <option  value="1">Single</option>
+  <option  value="0">No Vent</option>
+</select>
+     </div>
+  
+   <div class="form-group">
+    <label for="exampleInputPassword1">Chest Pocket</label>
+    <div class="form-check">
+  <input class="form-check-input" name = "boat" type="checkbox" value="boat" id="defaultCheck1" checked="checked">
+  <label class="form-check-label" for="defaultCheck1">
+    Boat Shape
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" name = "patch" type="checkbox" value="shape" id="defaultCheck2" >
+  <label class="form-check-label" for="defaultCheck2">
+    Patch
+  </label>
+</div>
+  </div>
+  
+  
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</body>
+</html>
